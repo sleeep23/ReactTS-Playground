@@ -9,12 +9,13 @@ interface CircleProps {
 
 const Container = styled.div<CircleProps>`
   // div 태그에도 interface 적용해서 함수 사용이 가능해진다.
+  color: ${(props) => props.theme.textColor};
   margin: 20px;
   width: 100px;
   height: 100px;
-  background-color: ${(props) => props.bgColors};
+  background-color: ${(props) => props.theme.bgColor};
   border-radius: 50px;
-  border: 1px solid ${(props) => props.borderColor};
+  border: 1px solid ${(props) => props.theme.bgColor};
   display: flex;
   flex-direction: column;
   justify-content: center;
