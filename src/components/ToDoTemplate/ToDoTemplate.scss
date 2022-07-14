@@ -1,0 +1,16 @@
+.ToDoTemplate {
+  width: 100%;
+  height: 100%;
+  background-color: var(--main);
+  display: flex;
+  display: -webkit-flex; // 이게 뭘까?
+  justify-content: center;
+  &-contents {
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+  }
+}

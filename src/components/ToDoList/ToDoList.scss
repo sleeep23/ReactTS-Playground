@@ -1,0 +1,19 @@
+.ToDoList {
+  width: 500px;
+  height: 500px;
+  max-height: 500px;
+  position: relative;
+  border: 2px solid var(--white);
+  border-radius: 16px;
+  margin-bottom: 10px;
+  padding: 1.5rem;
+  overflow: auto;
+  &-no-list {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

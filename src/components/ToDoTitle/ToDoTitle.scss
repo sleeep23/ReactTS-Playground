@@ -1,0 +1,11 @@
+.ToDoTitle {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--white);
+  margin-bottom: 10px;
+  &-icon {
+    margin-right: 8px;
+  }
+}
