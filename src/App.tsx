@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Circle from "./Circle";
-import "./App.css";
+
 
 function App() {
   const [value, setValue] = useState("");
@@ -16,8 +15,6 @@ function App() {
   };
   return (
     <>
-      <Circle bgColors="tomato" borderColor="black" />
-      <Circle bgColors="teal" text="Not default" />
       <form>
         <input
           value={value}
