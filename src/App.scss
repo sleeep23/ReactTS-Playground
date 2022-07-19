@@ -1,0 +1,81 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    font-size: 1.6rem;
+    display: flex;
+    margin: 12px 16px;
+    padding: 16px;
+  }
+
+  &-input {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-button {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    margin: 60px 0;
+    cursor: pointer;
+
+    & > button {
+      width: 300px;
+      font-size: 1.2rem;
+      padding: 12px 0;
+      border: none;
+      border-radius: 16px;
+      text-decoration: none;
+      color: white;
+      background-color: #1da447;
+    }
+  }
+}
+
+.input {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 24px;
+
+  &-title {
+    font-size: 1.2rem;
+    padding: 16px 12px;
+  }
+
+  &-content {
+    width: 400px;
+    background-color: white;
+    display: flex;
+  }
+  & > input {
+    flex: 1;
+    margin: 0 12px;
+    border: none;
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+    padding: 12px 0;
+  }
+}
